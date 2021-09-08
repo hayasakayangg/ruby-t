@@ -11,7 +11,6 @@ end
 #Câu b
 sum = a.inject(0){|result, element| result + element}
 puts "Tổng các phần tử của mảng: #{sum}"
-
 #Câu c
 
 new_a = Proc.new do |a|
